@@ -160,14 +160,14 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "We're Here To Help",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
+              "heading": "More About Us",
               "menu": "footer"
             }
           },
@@ -187,7 +187,7 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Sign up for Sale & New Arrivals",
           "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
