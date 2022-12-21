@@ -54,13 +54,7 @@
         "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "couch"
-          }
-        },
-        "80bca5a6-d289-4a30-abd4-5adc8c020d3d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "bedroom"
           }
         },
         "f5113d0d-2ee5-474d-bbfd-542e5d26e344": {
@@ -75,26 +69,18 @@
           "settings": {
             "collection": "garden"
           }
-        },
-        "46b546d9-9af4-4665-bd39-abab9383202c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-0",
-        "80bca5a6-d289-4a30-abd4-5adc8c020d3d",
         "f5113d0d-2ee5-474d-bbfd-542e5d26e344",
-        "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-2",
-        "46b546d9-9af4-4665-bd39-abab9383202c"
+        "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -109,20 +95,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>For The Indoors <\/p>",
             "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -133,8 +112,49 @@
         "padding_bottom": 0
       }
     },
+    "6c6837d5-9f46-47c2-b3e8-f39072f3c2f6": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16767365939480__6c6837d5-9f46-47c2-b3e8-f39072f3c2f6-1671652112b48ee57c-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "couch"
+          }
+        },
+        "template--16767365939480__6c6837d5-9f46-47c2-b3e8-f39072f3c2f6-1671652112b48ee57c-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pillows"
+          }
+        },
+        "template--16767365939480__6c6837d5-9f46-47c2-b3e8-f39072f3c2f6-1671652112b48ee57c-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chair"
+          }
+        }
+      },
+      "block_order": [
+        "template--16767365939480__6c6837d5-9f46-47c2-b3e8-f39072f3c2f6-1671652112b48ee57c-0",
+        "template--16767365939480__6c6837d5-9f46-47c2-b3e8-f39072f3c2f6-1671652112b48ee57c-1",
+        "template--16767365939480__6c6837d5-9f46-47c2-b3e8-f39072f3c2f6-1671652112b48ee57c-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -160,54 +180,68 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
+    "c21f5e2d-8936-4c1f-8e76-17704f188d60": {
+      "type": "featured-product",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-0": {
+          "type": "text",
           "settings": {
-            "collection": ""
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
           }
         },
-        "product": {
-          "type": "product",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-1": {
+          "type": "title",
           "settings": {
-            "product": "",
-            "second_image": false
+            "heading_size": "h1"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-2": {
+          "type": "price",
           "settings": {
-            "collection": ""
+          }
+        },
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-0",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-1",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-2",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-3",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-4",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-5",
+        "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-6"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
+        "product": "grey-sofa",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -217,8 +251,8 @@
     "image_banner",
     "bc443eae-1726-47ea-9ff0-b60151a4518b",
     "rich_text",
+    "6c6837d5-9f46-47c2-b3e8-f39072f3c2f6",
     "featured_collection",
-    "collage",
-    "video"
+    "c21f5e2d-8936-4c1f-8e76-17704f188d60"
   ]
 }
