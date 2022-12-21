@@ -152,34 +152,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "c21f5e2d-8936-4c1f-8e76-17704f188d60": {
       "type": "featured-product",
       "blocks": {
@@ -245,6 +217,77 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e30904e9-a514-49d5-949e-3d57b9d332e0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16767365939480__e30904e9-a514-49d5-949e-3d57b9d332e0-16716526070f4e3011-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Life Outdoors<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16767365939480__e30904e9-a514-49d5-949e-3d57b9d332e0-16716526070f4e3011-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16767365939480__e30904e9-a514-49d5-949e-3d57b9d332e0-16716526070f4e3011-0",
+        "template--16767365939480__e30904e9-a514-49d5-949e-3d57b9d332e0-16716526070f4e3011-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7ec20814-e929-4944-bbcb-a01ee35d5400": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16767365939480__7ec20814-e929-4944-bbcb-a01ee35d5400-1671652112b48ee57c-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plants"
+          }
+        },
+        "template--16767365939480__7ec20814-e929-4944-bbcb-a01ee35d5400-1671652112b48ee57c-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pot"
+          }
+        },
+        "template--16767365939480__7ec20814-e929-4944-bbcb-a01ee35d5400-1671652112b48ee57c-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "garden"
+          }
+        }
+      },
+      "block_order": [
+        "template--16767365939480__7ec20814-e929-4944-bbcb-a01ee35d5400-1671652112b48ee57c-0",
+        "template--16767365939480__7ec20814-e929-4944-bbcb-a01ee35d5400-1671652112b48ee57c-1",
+        "template--16767365939480__7ec20814-e929-4944-bbcb-a01ee35d5400-1671652112b48ee57c-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -252,7 +295,8 @@
     "bc443eae-1726-47ea-9ff0-b60151a4518b",
     "rich_text",
     "6c6837d5-9f46-47c2-b3e8-f39072f3c2f6",
-    "featured_collection",
-    "c21f5e2d-8936-4c1f-8e76-17704f188d60"
+    "c21f5e2d-8936-4c1f-8e76-17704f188d60",
+    "e30904e9-a514-49d5-949e-3d57b9d332e0",
+    "7ec20814-e929-4944-bbcb-a01ee35d5400"
   ]
 }
