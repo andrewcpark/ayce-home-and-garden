@@ -57,8 +57,15 @@
             "collection": "couch"
           }
         },
-        "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-1": {
+        "80bca5a6-d289-4a30-abd4-5adc8c020d3d": {
           "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "f5113d0d-2ee5-474d-bbfd-542e5d26e344": {
+          "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
@@ -68,18 +75,26 @@
           "settings": {
             "collection": "garden"
           }
+        },
+        "46b546d9-9af4-4665-bd39-abab9383202c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-0",
-        "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-1",
-        "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-2"
+        "80bca5a6-d289-4a30-abd4-5adc8c020d3d",
+        "f5113d0d-2ee5-474d-bbfd-542e5d26e344",
+        "template--16767365939480__bc443eae-1726-47ea-9ff0-b60151a4518b-1671649817ad8f0a4a-2",
+        "46b546d9-9af4-4665-bd39-abab9383202c"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
