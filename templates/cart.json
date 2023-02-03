@@ -15,11 +15,6 @@
           "settings": {
           }
         },
-        "6199d16a-2d2f-46b5-8482-7c2633e2ef8f": {
-          "type": "shopify:\/\/apps\/insurance-shipping-protection\/blocks\/app-embed\/75a10788-8b39-4a65-b3e7-1fe5b0daf330",
-          "settings": {
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -28,7 +23,6 @@
       },
       "block_order": [
         "subtotal",
-        "6199d16a-2d2f-46b5-8482-7c2633e2ef8f",
         "buttons"
       ],
       "settings": {
