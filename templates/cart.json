@@ -15,32 +15,21 @@
           "settings": {
           }
         },
-        "b884b96f-42f5-4803-8e79-63640afe6832": {
-          "type": "shopify:\/\/apps\/shipaid-shipping-guarantee\/blocks\/widget\/e474da1d-298a-4cd0-bfe3-cca11d976580",
+        "6199d16a-2d2f-46b5-8482-7c2633e2ef8f": {
+          "type": "shopify:\/\/apps\/insurance-shipping-protection\/blocks\/app-embed\/75a10788-8b39-4a65-b3e7-1fe5b0daf330",
           "settings": {
-            "show_loading_text": true,
-            "loading_text": "Loading ShipAid shipping protection...",
-            "disable_actions": false,
-            "disable_refresh": false
           }
         },
         "buttons": {
           "type": "buttons",
           "settings": {
           }
-        },
-        "6199d16a-2d2f-46b5-8482-7c2633e2ef8f": {
-          "type": "shopify:\/\/apps\/insurance-shipping-protection\/blocks\/app-embed\/75a10788-8b39-4a65-b3e7-1fe5b0daf330",
-          "disabled": true,
-          "settings": {
-          }
         }
       },
       "block_order": [
         "subtotal",
-        "b884b96f-42f5-4803-8e79-63640afe6832",
-        "buttons",
-        "6199d16a-2d2f-46b5-8482-7c2633e2ef8f"
+        "6199d16a-2d2f-46b5-8482-7c2633e2ef8f",
+        "buttons"
       ],
       "settings": {
       }
