@@ -213,7 +213,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "2131494470682214141": {
+        "type": "shopify:\/\/apps\/corner-cart-drawer-free-gift\/blocks\/corner-widget\/73667a27-0d48-44b7-91f9-aef741c803ed",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
