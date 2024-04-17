@@ -15,6 +15,16 @@
           "settings": {
           }
         },
+        "shipaid_shipping_guarantee_widget_GHBcKj": {
+          "type": "shopify:\/\/apps\/shipaid-shipping-guarantee\/blocks\/widget\/e474da1d-298a-4cd0-bfe3-cca11d976580",
+          "settings": {
+            "show_loading_text": true,
+            "loading_text": "Loading ShipAid shipping protection...",
+            "disable_actions": false,
+            "disable_refresh": false,
+            "lang": ""
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -23,6 +33,7 @@
       },
       "block_order": [
         "subtotal",
+        "shipaid_shipping_guarantee_widget_GHBcKj",
         "buttons"
       ],
       "settings": {
