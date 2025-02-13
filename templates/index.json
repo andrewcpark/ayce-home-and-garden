@@ -25,7 +25,7 @@
         "showcase3d_model_viewer_showcase3d_section_kjgUyw"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "image_banner": {
