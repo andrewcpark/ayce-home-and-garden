@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/christophe-rollando-UqJ9r4ptgQ8-unsplash.jpg",
+        "image": "shopify://shop_images/christophe-rollando-UqJ9r4ptgQ8-unsplash.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -95,7 +104,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>For The Indoors <\/p>",
+            "heading": "<p>For The Indoors </p>",
             "heading_size": "h1"
           }
         }
@@ -170,8 +179,7 @@
         },
         "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-2": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-3": {
           "type": "variant_picker",
@@ -181,8 +189,7 @@
         },
         "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-4": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--16767365939480__c21f5e2d-8936-4c1f-8e76-17704f188d60-1671652113ece538a2-5": {
           "type": "buy_buttons",
@@ -224,7 +231,7 @@
         "template--16767365939480__e30904e9-a514-49d5-949e-3d57b9d332e0-16716526070f4e3011-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Grow Your Garden<\/p>",
+            "heading": "<p>Grow Your Garden</p>",
             "heading_size": "h1"
           }
         },
@@ -232,7 +239,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -315,6 +322,25 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17394887169f0e1813": {
+      "type": "apps",
+      "blocks": {
+        "showcase3d_model_viewer_showcase3d_section_kjgUyw": {
+          "type": "shopify://apps/showcase3d-model-viewer/blocks/showcase3d_section/3f22a7fc-446e-463f-a7fa-50b320f6035c",
+          "settings": {
+            "model_file": "https://cdn.shopify.com/3d/models/4655a905724d0883/WaterBottle.glb",
+            "alt_text": "3D Product Model",
+            "ar_support": true
+          }
+        }
+      },
+      "block_order": [
+        "showcase3d_model_viewer_showcase3d_section_kjgUyw"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -325,6 +351,7 @@
     "c21f5e2d-8936-4c1f-8e76-17704f188d60",
     "e30904e9-a514-49d5-949e-3d57b9d332e0",
     "7ec20814-e929-4944-bbcb-a01ee35d5400",
-    "b91a281c-7660-4430-b0a7-7827e30248d5"
+    "b91a281c-7660-4430-b0a7-7827e30248d5",
+    "17394887169f0e1813"
   ]
 }
